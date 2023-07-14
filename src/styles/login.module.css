@@ -1,0 +1,123 @@
+.login {
+    height: 86vh; /* Define a altura como 100% da altura da tela (viewport) */
+    display: flex; /* Define o elemento como um flex container */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    background-color: rgb(230, 229, 229);
+    
+}
+
+.logoAgenteF { 
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(230, 229, 229);
+    margin: 10px;
+}
+
+
+.entrar{
+    background: #F27A01; /* var(--green-500); /* Define o fundo do botão como verde-500 */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao botão */
+    border: 0; /* Remove a borda do botão */
+    padding: 0 1rem; /* Adiciona preenchimento horizontal de 0 a 1 rem */
+    height: 2.5rem; /* Define a altura do botão como 2.5 rem */
+    width: 10rem;
+    color: #ffffff;/*var(--gray-900);*/ /* Define a cor do texto do botão como cinza-900 */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 1rem; /* Define o tamanho da fonte como 1 rem */
+    margin-top: 1rem; /* Adiciona uma margem superior de 1 rem */
+    
+    transition: 0.2s; /* Aplica uma transição suave à propriedade "filter" durante 0.2 segundos */
+}
+
+.card {
+    background-color: #ffffff;
+    opacity: 0.8;
+    padding: 30px 30px 30px 30px ;
+    border-radius: 5px;
+    
+}
+
+.logoSlogan {
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: rgb(230, 229, 229);
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.esqueci {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.link {
+    color : #F27A01;
+    text-decoration: none;
+
+}
+
+.user {
+    border: 1px solid #F27A01;
+    box-shadow: 0 2px 4px rgb(242, 122, 1);
+    border-radius: 0.25rem;
+    height: 2.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: rgba(168, 168, 168, 0.4);
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+  
+.placeholder::placeholder {
+    color: #F27A01;/*#fff;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.password {
+    border: 1px solid #F27A01;
+    box-shadow: 0 2px 4px rgb(242, 122, 1);
+    border-radius: 0.25rem;
+    height: 2.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: rgba(168, 168, 168, 0.4);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputFocus {
+    outline: none;
+}
+
+.title{
+    color: #F27A01;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+.error {
+    color: red;
+}
